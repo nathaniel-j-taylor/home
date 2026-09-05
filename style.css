@@ -1,5 +1,7 @@
-
-body {margin: 0 !important;
+body {
+      display: flex;
+      justify-content: center; /* Centers content horizontally */
+      margin: 0 !important;
       padding: 0 !important;
       max-width: 768px;
       width: 100%;
