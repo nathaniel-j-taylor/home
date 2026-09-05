@@ -1,4 +1,7 @@
 body {
+      display: flex;
+      flex-direction: column;   /* Stacks elements vertically */
+      align-items: center;      /* Centers the stack horizontally */
       margin: 0 !important;
       padding: 0 !important;
       max-width: 768px;
