@@ -1,4 +1,4 @@
-body {
+html, body {
       display: flex;
       flex-direction: column;   /* Stacks elements vertically */
       align-items: center;      /* Centers the stack horizontally */
