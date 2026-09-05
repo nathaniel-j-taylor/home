@@ -1,6 +1,7 @@
 body {/* margin: 0 !important;
       padding: 0 !important; */
       /* overflow: hidden; */ /* Removes unexpected scrollbars */
+      display: flex;
       align-items: center;
       max-width: 768px;
       width: 100%;
