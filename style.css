@@ -16,6 +16,8 @@ p, h1, h2, h3 {
       margin-top: 10px;
       margin-bottom: 10px;
 }
-@media (min-width: 481px) {
-  .p {font-size: 20pt;}
+@media only screen and (min-width: 481px) {
+  .p {
+      font-size: 20pt;
+  }
 }
