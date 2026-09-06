@@ -15,11 +15,11 @@ p, h1, h2, h3 {
       margin-top: 10px;
       margin-bottom: 10px;
 }
-@media only screen and (max-width: 481px) {
+@media (max-width: 480px) {
   .p {
       font-size: 10pt;
   }
-}@media only screen and (min-width: 481px) {
+}@media (min-width: 481px) {
   .p {
       font-size: 20pt;
   }
