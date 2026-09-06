@@ -8,3 +8,6 @@ body {
       -moz-text-size-adjust: 100%;    /* Prevents Firefox Mobile from resizing text */
       text-size-adjust: 100%;         /* Standard property */
 }
+p, h1, h2, h3 {
+
+}
