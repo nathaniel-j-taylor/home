@@ -11,4 +11,8 @@ body {
 p, h1, h2, h3 {
       font-size: 10pt;
       font-family: Calibri, Carlito, Candara;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
 }
