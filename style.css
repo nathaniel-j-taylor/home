@@ -17,10 +17,10 @@ p, h1, h2, h3 {
 }
 @media (max-width: 480px) {
   .p {
-     6pt 
+      font-size: 6pt; 
   }
 }@media (min-width: 481px) {
   .p {
-      12pt
+      font-size: 12pt;
   }
 }
