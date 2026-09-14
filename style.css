@@ -13,6 +13,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.banner {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner img {
+    height: 100%;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
 p {
     margin-top: 0;
     margin-left: 10px;
@@ -23,21 +35,20 @@ ul {
     margin-top: 0;
 }
 
-h1 {
+h2 {
     color: white;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 10px;
+    margin: 0;
 }
 
-h2 {
+h3 {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 0;
 }
 
-h3 {
+h4 {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -58,61 +69,70 @@ h3 {
     margin-right: 10px;
 }
 
-.section-h3 {
+.section-h4 {
     margin-left: 10px;
     margin-right: 10px;
 }
 
 @media screen and (max-width: 480px) {
+    .banner {
+        height: 70px;
+    }
     p, ul {
         font-size: 12px;
     }
 
-    h3 {
+    h4 {
         font-size: 13px;
     }
 
-    h2 {
+    h3 {
         font-size: 14px;
     }
 
-    h1 {
+    h2 {
         font-size: 15px;
     }
 }
 
 @media screen and (min-width: 481px) and (max-width: 600px) {
+    .banner {
+        height: 100px;
+    }
     p, ul {
         font-size: 14px;
     }
 
-    h3 {
+    h4 {
         font-size: 15px;
     }
 
-    h2 {
+    h3 {
         font-size: 16px;
     }
 
-    h1 {
+    h2 {
         font-size: 17px;
     }
 }
 
 @media screen and (min-width: 601px) {
+    .banner {
+        height: 130px;
+    }
     p, ul {
         font-size: 15px;
     }
 
-    h3 {
+    h4 {
         font-size: 16px;
     }
 
-    h2 {
+    h3 {
         font-size: 17px;
     }
 
-    h1 {
+    h2 {
         font-size: 18px;
     }
 }
