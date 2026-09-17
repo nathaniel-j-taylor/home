@@ -17,12 +17,44 @@ body {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: linear-gradient(90deg, rgb(185, 0, 161) 0%, rgb(106, 10, 12) 100%);
+    display: flex;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(90deg, rgb(185, 0, 161) 0%, rgb(106, 10, 12) 100%);
+    display: flex;
 }
 
 .banner img {
     height: 100%;
     object-fit: contain;
     margin-left: 10px;
+}
+
+.banner span {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    color: white;
+}
+
+.footer img {
+    height: 100%;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.footer span {
+    display: inline-block;
+    text-align: right;
+    color: white;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 p {
@@ -85,23 +117,21 @@ h4 {
     .banner {
         height: 70px;
     }
-    
+    .footer {
+        height: 30px;
+    }
     p, ul {
         font-size: 12px;
     }
-
     h4 {
         font-size: 13px;
     }
-
     h3 {
         font-size: 14px;
     }
-
     h2 {
         font-size: 15px;
     }
-
     h1 {
         font-size: 22px;
     }
@@ -111,22 +141,21 @@ h4 {
     .banner {
         height: 85px;
     }
+    .footer {
+        height: 40px;
+    }
     p, ul {
         font-size: 14px;
     }
-
     h4 {
         font-size: 15px;
     }
-
     h3 {
         font-size: 16px;
     }
-
     h2 {
         font-size: 17px;
     }
-
     h1 {
         font-size: 30px;
     }
@@ -136,22 +165,21 @@ h4 {
     .banner {
         height: 100px;
     }
+    .footer {
+        height: 40px;
+    }
     p, ul {
         font-size: 15px;
     }
-
     h4 {
         font-size: 16px;
     }
-
     h3 {
         font-size: 17px;
     }
-
     h2 {
         font-size: 18px;
     }
-
     h1 {
         font-size: 40px;
     }
