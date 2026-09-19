@@ -27,6 +27,7 @@ body {
     padding-bottom: 10px;
     background: linear-gradient(90deg, rgb(185, 0, 161) 0%, rgb(106, 10, 12) 100%);
     display: flex;
+    margin-top: 10px;
 }
 
 .banner img {
