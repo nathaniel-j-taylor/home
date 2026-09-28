@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://nathaniel-j-taylor.github.io/home/sitemap.xml
